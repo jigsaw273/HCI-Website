@@ -1,0 +1,108 @@
+
+#quiz{
+	margin: 0 auto;
+	min-height: 650px;
+	padding: 3% 5% 5%;
+	background-color:#E9EEF2 ;
+}
+
+#quiz-logo{
+	font-size: 40px;
+}
+
+#quiz-start-btn{
+	background-color:#e36556;
+	padding: 1% 2.2%;
+	border-radius: 20px;
+	font-size: 17px;
+}
+
+#quiz-controls{
+	border-radius: 15px;
+	padding: 1% 5% 3%;
+	background:#93a2ad;
+	color:#fff;
+	font-family: 'Tajawal';
+}
+
+/*Jquery-Quiz.css file, so that I can apply the dark theme to it*/
+
+#quiz-controls,#quiz-counter,#quiz-header,#quiz-results-screen,#quiz-start-screen{
+	text-align:center;
+	font-family: 'Karla';
+	}
+
+#quiz-results,.question{
+	font-size:1.2em;
+	font-family: 'Tajawal';
+}
+
+.quiz-container{
+	padding:1em;
+	max-width:100%;
+	margin:1em auto;
+}
+
+.quiz-container a{
+	text-decoration:none;
+	font-family:'Karla';
+}
+	
+.answers{
+	list-style:none;
+	padding:0;
+}
+	
+.answers a{
+	display:block;
+	padding:.5em 1em;
+	margin-bottom:.5em;
+	background:#cdd3d8;
+	border-radius:0px;
+	font-family: 'Tajawal';
+	font-size: 18px;
+	color: black;
+}
+
+.answers a.correct{
+	background:#577ad0;
+	color: #E9EEF2;
+}
+
+.answers a.incorrect{
+	background:#e36556;
+	color: #E9EEF2;
+}
+
+#quiz-buttons a,.quiz-container .quiz-button{
+	padding:0.5% 1em;	
+	color:#fff;
+	border-radius:18px;
+	font-family: 'Tajawal';
+}
+
+.answers a.correct,.answers a.incorrect{
+	color:#fff;
+	font-family: 'Tajawal';
+}
+
+#quiz-buttons a,.quiz-container .quiz-button{
+	display:inline-block;
+}
+
+#quiz-buttons a{
+	background:#fff;
+	color:#333;
+}
+
+.quiz-results-state #quiz-controls{
+	background:0 0;
+	padding:0;
+}
+
+.quiz-results-state #quiz-buttons a{
+	background:#333;
+	color:#fff;
+}
+
+/**/

@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>  
+        <meta charset="utf-8">  
+        <title> Learn </title>  
+        <meta name="description" content=" ... ">  
+        <link href="css/styles.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <script src="https://kit.fontawesome.com/b0b905234d.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Karla:wght@400&family=Oswald:wght@700&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+        <!--Link to JQuery Library-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="scripts/core.js"></script>
+    
+    </head>  
+    <body> 
+    	
+		<nav> 
+            <div class='nav-container'>
+                <ul > 
+                    <li><a class='nav-link' href = "index.html">Home</a></li> 
+                    <li><a class='nav-link' href = "learn.html">Learn</a></li> 
+                    <li><a class='nav-link' href = "test.html">Test</a></li> 
+                </ul>
+                <div class='dark-icon'><i id='btn-toggle' class="fas fa-adjust"></i></div>
+            </div>
+        </nav>
+
+        <div class='page-wrapper'>
+	        <div id="learn-head">
+	        	<div class="learn-headings">
+	        		<h1 id="learn-h1">Learn: Human Computer Interaction</h1>
+	        		<h2 class="learn-h2">About the Standard</h2>
+	        	</div>
+	        	<div class="learn-text">
+	        		<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+	        		<p>Nam, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+	        	</div>
+	        	<div id="learn-img-div">
+	        		<img id='learn-img' src ="img/learnred.png" alt= "Vector graphic of 4 people looking at and working on a computer">
+	        	</div>
+	        	<div class="learn-headings"><h2 class="learn-h2">What are Heuristics?</h2></div>
+	        	<div class="learn-text">
+		        	<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+		        	<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+		        </div>
+	        </div>
+
+	        <div id='dropdowns'>
+	        	<h2>Usability Heuristics</h2>
+		        <button class="accordion">User Control and Freedom</button>
+				<div class="panel">
+		  			<p><i>Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.</i></p>
+		  			<p>It is very frustrating to make a mistake and not be able to get out of it. It is particularly bad if one small action can wipe a lot of work that can't be recovered. The reset button on some web forms is infamous for this – it is often next to the submit button, and you can wipe all your data with an off-by-one error.</p>
+		  			<p>A common way to provide user freedom is an "undo" feature, which means that not only can mistakes be fixed easily, but the user is encouraged to experiment, trying out features of the interface secure in the knowledge that they can just "undo" to get back to how things were, instead of worrying that they'll end up in a state that they can't fix. If "redo" is also available, they can flick back and forth, deciding which is best. (In fact, redo is really an undo for undo!)</p>
+				</div>
+
+				<button class="accordion">Help and documentation</button>
+				<div class="panel">
+		  			<p>Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large</p>
+		  			<p>Often help is an afterthought, and tends to be feature-centred (e.g. a catalogue of menu items), rather than task-centred (the series of actions needed to complete typical tasks, which is more useful for the user). When a user needs help, they typically have a task to complete (such as upload photos from a camera), and good documentation should explain how to do common tasks, rather than explain each feature (such as "Setting the camera to USB mode").</p>
+				</div>
+
+				<button class="accordion">Aesthetic and minimalist design</button>
+				<div class="panel">
+		  			<p><i>Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.</i></p>
+		  			<p>Software can contain many features, and if they are all visible at the same time (for example, on a toolbar), this can be overwhelming, especially for a new user.</p>
+		  			<p>TV remote controls often provide a great example of a complicated interface. One reason that they have so many buttons is that it can help to make the device look impressive in the shop, but once you get it home, many of the buttons become redundant or confusing.</p>
+				</div>
+
+				<button class="accordion">Visibility of system status</button>
+				<div class="panel">
+		  			<p><i>The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.</i></p>
+		  			<p>This heuristic states that a user should be able to see what the device is doing (the system's status), at all times. This varies from the user being able to tell if the device is turned on or off, to a range of actions. A classic example is the "caps lock" key, which may not clearly show if it is on, and when typing a password the user might not know why it is being rejected; a positive example of this is when a password entry box warns you that caps lock is on.</p>
+		  			<p>One of the simplest statuses for a device is on or off, which is usually a coloured light on the outside of the computer. However, some devices take a while to show the status (for example, some DVD players take a while to respond when switched on), and the user might press the power button again or otherwise get confused about the status.</p>
+		  			<p>Giving feedback in a "reasonable time" is really important, and the "reasonable time" is often shorter than what you might think. Earlier there was an experiment to find out at what point people perceive a delayed reaction; you probably found that it was around a tenth of a second. If a computer takes longer than that to respond then it can be confusing to use. There's more about this in the previous section.</p>
+				</div>
+
+				<button class="accordion">Error prevention</button>
+				<div class="panel">
+		  			<p><i>Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.</i></p>
+		  			<p>A computer program shouldn't make it easy for people to make serious errors. An example of error prevention found in many programs is a menu item on a toolbar or dropdown being 'greyed out' or deactivated. It stops the user from using a function that shouldn't be used in that situation, like trying to copy when nothing is selected. A good program would also inform the user why an item is not available (for example in a tooltip).</p>
+				</div>
+
+				<button class="accordion">Consistency and standards</button>
+				<div class="panel">
+		  			<p><i>Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.</i></p>
+		  			<p>Consistency (something being the same every time) is extremely useful for people using interfaces, and is sometimes called the "golden rule of HCI". If an interface is consistent with other interfaces then learning in one interface transfers directly to another. One of the biggest examples of consistency in computer programs is copy and paste, which works the same way in most software, so users only have to learn the concept once. The shortcut keys for copy and paste are also fairly consistent between programs. But in some software, copy/paste behaves differently, and this can be confusing for users.</p>
+		  			<p>A lack of consistency is often the reason behind people not liking a new system. It is particularly noticeable between Mac and Windows users; someone who has only used one system can find the other very frustrating to use because so many things are different (consider the window controls for a start, which are in a different place and have different icons). An experienced user of one interface will think that it is "obvious", and can't understand why the other person finds it frustrating, which can lead to discussions of religious fervour on which interface is best. Similar problems can occur when a radically different version of an operating system comes out (such as Windows 8); a lot of the learning that has been done on the previous system needs to be undone, and the lack of consistency (i.e. losing prior learning) is frustrating.</p>
+				</div>
+				<button class="accordion">Help users recognize, diagnose, and recover from errors</button>
+				<div class="panel">
+		  			<p><i>Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.</i></p>
+		  			<p>It’s not hard to find error messages that don’t really tell you what’s wrong! The most common examples are messages like "Misc error", "Error number -2431", or "Error in one of the input values". These force the user to go on a debugging mission to find out what went wrong, which could be anything from a disconnected cable or unfixable compatibility issue, to a missing digit in a number.</p>
+		  			<p>For example, some troubleshooting software produced the "unexpected" error below. The error message is particularly unhelpful because the software was supposed to help with finding problems, but instead it has given the user a new problem to solve! There is some extra information not shown below such as "Path: Unknown" and "Error code: 0x80070002". Searching for the error code can lead to suggested solutions, but it also leads to scam software that claims to fix the problem. By not giving useful error recovery information, the system has put the user at the mercy of the advice available online!</p>
+				</div>
+
+				<button class="accordion">Flexibility and efficiency of use</button>
+				<div class="panel">
+		  			<p><i>Accelerators – unseen by the novice user – may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.</i></p>
+		  			<p>When someone is using software every day, they will soon have common sequences of operations they do (such as "Open the file, find the next blank space, type in a record of what just happened"). It's good to offer ways to make this quick to do, such as "macros", which do a sequence of actions from a single keystroke.</p>
+		  			<p>Similarly, it's good to be able to customise software by allocating keystrokes for frequent actions (such as "file this email in the 'pending' folder"). Common tasks like copy and paste usually have keystrokes added to them, and these allow experienced users to perform the task without having to reach for a mouse.</p>
+				</div>
+
+				<button class="accordion">Recognition over recall </button>
+				<div class="panel">
+		  			<p><i>Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.</i></p>
+		  			<p>Humans are generally very good at recognising items, but computers are good at remembering them accurately. A good example of this is a menu system; if you click on the "Edit" menu in a piece of software, it will remind you of all the editing tasks available, and you can choose the appropriate one easily. If instead you had to type in a command from memory, that would put more load on the user. In general it's good for the computer to "remember" details, and the user to be presented with options rather than having to remember them. The exception is a system that is used all the time by an expert who knows all the options; in this case entering commands directly can sometimes be more flexible and faster than having to select from a list.</p>
+		  			<p>For example, when you type in a place name in an online map, the system might start suggesting names based on what you're typing, and probably adapted to focus on your location or past searches. The following image is from Google maps, which suggests the name of the place you may be trying to type (in this case, the user has only had to type 4 letters, and the system saves them from having to recall the correct spelling of "Taumatawhakatangihangakoauauotamateapokaiwhenuakitanatahu" because they can then select it.) A similar feature in web browsers saves users from having to remember the exact details of a URL that they have used in the past; a system that required you to type in place names exactly before you could search for them could get rather frustrating.</p>
+				</div>
+
+				<button class="accordion">Match between system and real world</button>
+				<div class="panel">
+		  			<p><i>The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.</i></p>
+		  			<p>By nature, human beings find comfort in familiarity. If people don’t understand the terms used on a site, not only will they feel unsure and ignored, but many will be forced to go elsewhere to find explanations or even to complete their task. </p>
+		  			<p></p>
+				</div><hr>
+			</div>
+
+			<div id='ready-div'>
+
+				<h2>Think you're ready?</h2>
+				<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p><br>
+				<a href = "test.html" class="slide-button" id="ready-button">Continue</a>
+			</div>	
+		</div>
+
+		<footer>
+	      	<div class="footer-container">
+	          <div class="footer-about">
+	            <h4>About</h4>
+	            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+	            <p>Image credits: <a class='hyperlink' href="https://www.freepik.com/vectors/people">People vector created by pch.vector - www.freepik.com</a></p>
+	          </div>
+
+	          <div class="quick-links">
+	            <h4>Quick Links</h4>
+	            <ul class="footer-links">
+	            	<li><a class='footer-link' href = "index.html">Home</a></li> 
+	                <li><a class='footer-link' href = "learn.html">Learn</a></li> 
+	                <li><a class='footer-link' href = "test.html">Test</a></li>
+	            </ul>
+	          </div>
+
+	          <div class="footer-item">
+	            <h4>Contact Us</h4>
+	            <p>Author: Snigdha Mundra </p>
+                <p>Email:<br><a id='email' class='hyperlink' href="mailto:snigdhamundra@gmail.com">snigdhamundra@gmail.com</a></p>
+	          </div>
+
+      		</div><hr>
+      		<div class="container">
+            	<p class="copyright-text">Copyright &copy; 2020 All Rights Reserved</p>
+      		</div>
+		</footer>
+
+	</body> 
+</html> 	

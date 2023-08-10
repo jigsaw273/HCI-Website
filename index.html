@@ -1,0 +1,87 @@
+<!DOCTYPE html>  
+<html lang="en">  
+    <head>  
+        <meta charset="utf-8">  
+        <title> Home </title>  
+        <meta name="description" content="...">  
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b0b905234d.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Karla:wght@400&family=Oswald:wght@700&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+        <!--Link to JQuery Library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="scripts/core.js"></script> 
+
+    </head>  
+    <body>  
+        <nav> 
+            <div class='nav-container'>
+                <ul> 
+                    <li><a class='nav-link' href = "index.html">Home</a></li> 
+                    <li><a class='nav-link' href = "learn.html">Learn</a></li> 
+                    <li><a class='nav-link' href = "test.html">Test</a></li> 
+                </ul>
+                <div class='dark-icon'><i id='btn-toggle' class="fas fa-adjust"></i></div>
+            </div>
+        </nav> 
+
+        <div id ="landing-page">
+            <div id='landing-container'>
+            <div id='title-container'>
+                <h1 id='home-title'>Human Computer Interaction</h1>
+                <button class="slide-button" id="scroll-button">Continue</button>
+            </div>
+            <div id='home-image'><img src ="img/phone.png" alt= "Vector graphic of 2 men working on a giant phone"></div>
+            </div>
+        </div>
+
+         <div id="home-blurb">
+            <div class='content'>
+            <!--Content class will make the background colours go all the way across the page but keep the text within a limit-->
+                <h2>What is Human Computer Interaction?</h2>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            </div>
+        </div>
+
+        <div id="flex-container">
+            <div id="home-learn" class="intro-div">
+                <h3>Start Learning</h3>
+                <a href = "learn.html" class="slide-button" id="learn-button">Continue</a>
+            </div>
+
+            <div id="home-test" class="intro-div">
+                <h3>Take the Test</h3>
+                <a href = "test.html" class="slide-button" id="test-button">Let's Go</a> 
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+              <div class="footer-about">
+                <h4>About</h4>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                <p>Image credits: <a class='hyperlink' href="https://www.freepik.com/vectors/technology">Technology vector created by pikisuperstar - www.freepik.com</a></p>
+              </div>
+
+              <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a class='footer-link' href = "index.html">Home</a></li> 
+                    <li><a class='footer-link' href = "learn.html">Learn</a></li> 
+                    <li><a class='footer-link' href = "test.html">Test</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-item">
+                <h4>Contact Us</h4>
+                <p>Author: Snigdha Mundra </p>
+                <p>Email:<br><a id='email' class='hyperlink' href="mailto:snigdhamundra@gmail.com">snigdhamundra@gmail.com</a></p>
+              </div>
+
+            </div><hr>
+            <div class="container">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved </p>
+            </div>
+        </footer>
+
+    </body>  
+</html> 
