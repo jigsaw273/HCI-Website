@@ -1,4 +1,4 @@
-# HCI-Website
+## HCI-Website
 
 #### To view, just download as a zip file and open the index.html file in a browser. 
 
