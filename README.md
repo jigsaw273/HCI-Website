@@ -14,7 +14,7 @@ This website is gives an overview of HCI concepts which we had to learn for our 
 ![image](https://github.com/jigsaw273/HCI-Website/assets/140861149/6eb43bcd-7695-4549-b3c3-c615bd600cff)
 
 
-At the time I preparing to get my learners license and drew inspiration from the buttons on the [drive.govt](https://drive.govt.nz/) website. 
+At the time I was preparing to get my learners license and drew inspiration from the buttons on the [drive.govt](https://drive.govt.nz/) website. 
 
 ![image](https://github.com/jigsaw273/HCI-Website/assets/140861149/aa2cb269-af23-4068-b625-734b14910cd3)
 
